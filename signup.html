@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+
+
+
+    <form class="form">
+      <div class="container">
+        <h1 style="color: white;">Sign Up Form</h1>
+        <hr>
+    
+        <label for="name" style="color: white;"><b>Full Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required>
+        <label for="email" style="color: white;"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+        
+        
+        <label for="psw" style="color: white;"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <label for="cpsw" style="color: white;"><b>Confirm Password</b></label>
+        <input type="password" placeholder="Confirm Password" name="cpsw" required>
+        
+        <a href=""><label><b>Forgot Password?</b></label></a>
+
+        <a href="./index.html"><button type="submit" class="Login" id="loogin">Login</button></a>
+
+        <label id="loginwith" style="color: white;"><b>Or login with</b></label>
+
+
+        <div class="clearfix">
+          <a href="https://www.facebook.com/login.php/"><button type="button" class="Facebook" id="facebook"> <img src="./fb.png" width="20px" alt=""> <b>Facebook</b> </button> </a>
+         <a href="https://www.instagram.com/accounts/login/"> <button type="button" class="Instagram" id="instagram"> <img src="./insta.png" width="20px" alt=""> <b>Instagram</b> </button></a>
+        </div>
+
+        <label id="now" style="color: white;"><b>Already have account?<a href="/form.html">Login</a></b></label>
+
+      </div>
+    </form>
+
+    <script src="signup.js"></script>
+
+</body>
+
+</html>
